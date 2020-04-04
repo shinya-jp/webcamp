@@ -183,3 +183,54 @@ footer{
 .footer-text{
 	color: #fff;
 }
+
+@media screen and (max-width: 425px){
+header{
+	width: 100%;
+}
+.nav{
+	width: 100%;
+}
+.nav-list-item{
+	display: block;
+	margin-bottom: 5px;
+}
+.social{
+	display: none;
+}
+.main-visual-content{
+	width: 100%;
+}
+main{
+	width: 100%;
+}
+.blog{
+	width: 100%;
+	margin: 0;
+}
+.blog-image{
+	width: 49%;
+}
+.blog-text{
+	width: 49%;
+	padding-top: 5px;
+}
+.sidebar{
+	width: 100%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.instagram-box{
+	width: 48%;
+	padding-top: 48%;
+}
+.instagram-headline{
+	margin-bottom: 50px;
+}
+.categories-headline{
+	margin: 50px 0;
+}
+.pagination{
+	margin-bottom: 50px;
+}
+}
