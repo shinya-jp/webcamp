@@ -14,6 +14,7 @@ a {
 }
 
 header{
+	position: relative;
 	width: 90%;
 	padding:15px 0;
 	margin: 0 auto;
@@ -21,6 +22,10 @@ header{
 }
 header.headline{
 	font-size: 32px;
+}
+.social{
+	display: inline-block;
+	margin-left: 20px;
 }
 .nav-list{
 	text-align: center;
@@ -100,6 +105,20 @@ main{
 	border-radius: 3px;
 	color: #fff;
 	font-size: 11px;
+}
+.pagination{
+	margin-top: 50px;
+	text-align: center;
+}
+.pagination p{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	color: white;
+	background-color: #acabab;
+	border-radius: 3px;
+	margin:  0 5px;
+	line-height: 30px;
 }
 .sidebar{
 	width: 230px;
