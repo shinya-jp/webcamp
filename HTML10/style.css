@@ -59,4 +59,15 @@ main{
 main{
 	width: 100%;
 }
+.box{
+	width: 90%;
+	margin: 0 auto;
+	float: none;
+	margin-bottom: 20px;
+	margin-right: 5%;
+}
+.box:last-child{
+	margin-right: 5%;
+}
+
 }
