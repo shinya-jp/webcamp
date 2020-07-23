@@ -1,10 +1,8 @@
 $(function(){
-	$('.box1').show(1000)
-	$('.box1').slideDown(function(){
-		$('.box1').css({
-			'background-color': '#0000ff',
-			'width': '200px',
-			'height': '100px'
-		}).slideUp(1000);
+	$('.box1').mouseover(function(){
+		$('.box1').css({'background-color': '#0000ff'});
+	});
+	$('.box1').mouseout(function(){
+		$('.box1').css({'background-color': '#ff0000'});
 	});
 });
